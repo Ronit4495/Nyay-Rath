@@ -1,0 +1,302 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.logo{
+    margin:0px;
+    padding:0px;
+    
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    
+    height:14vh;
+    flex-wrap:wrap;
+}
+.right ul {
+    display:flex;
+    margin:3px;
+    
+}
+nav ul{
+    list-style:none;
+    display:flex;
+    align-items:center;
+
+}
+.right ul li{
+    display:flex;
+    align-items: center;
+    cursor:pointer;
+}
+.right ul li span{
+    padding: 0 8px;
+}
+li span:hover{
+    background-color: gray;
+}
+.search{
+    color:green;
+}
+
+.box{
+    background-color: rgb(34, 126, 212);
+    height:80vh;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    flex-wrap:wrap;
+    
+    
+}
+.hero{
+    
+    height:70%;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    flex-direction:column; 
+    color:white;
+    position:relative;
+    gap:5px;
+    padding:0 30px;
+    left: 159px;
+    bottom: 43px;
+}
+.hero :nth-child(1){
+    font-family:"Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-size:60px;
+    font-weight:700;
+    text-align: center;
+
+}
+.hero :nth-child(2){
+    font-family:"Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-size:60px;
+    font-weight:700;
+    text-align: center;
+
+}
+.hero :nth-child(3){
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size:28px;
+    font-weight:300;
+    text-align: center;
+    
+    
+}
+
+.btn{
+    font-family:"Open Sans", Helvetica, Arial, sans-serif;
+   position:absolute;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    display: flex;
+    top: 495px;
+    right: 463px;
+    
+   
+}
+.firstbutton:hover{
+    width:160px;
+    font-size:15px;
+}
+button:nth-child(1){
+    font-family:
+    "Open Sans", Helvetica, Arial, sans-serif;
+    font-size:14px;
+    font-weight:700;
+    width: 154px;
+    height: 50px;
+    background-color:white;
+    border: 1px solid rgb(20, 97, 170);
+    cursor:pointer;
+    color:rgb(35,82,124);
+
+}
+button:nth-child(2){
+    font-family:"Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size:14px;
+    color:white;
+    width: 174px;
+    height: 50px;
+    background-color:rgb(34, 126, 212);
+    border: 1px solid white;
+    cursor:pointer;
+    
+}
+.secondbutton:hover{
+    width:180px;
+    font-size: 15px;
+    
+}
+.subbox{
+   
+    height:25px;
+    width:200px;
+    background-color:white;
+    position: relative;
+    top: 107px;
+    right: 346px;
+    display:flex;
+    flex-direction: row;
+}
+.subbox image{
+    border-radius: 5px;
+}
+
+.subbox div{
+    font-size:12px;
+}
+
+.separation{
+    height:5px;
+    width:98vw;
+    background-color: gray;
+}
+.upper{
+   
+    padding:25px 0px;
+}
+.upper:hover{
+    background-color:gray;
+}
+.top{
+    height:95px;
+}
+.lawyers {
+    height:80vh;
+}
+.lawyers h2{
+    display:flex;
+    justify-content:center;
+    padding:20px 0px 0px 0px;
+    font-size:30px;
+    font-weight:300;
+}
+.where{
+    display:flex;
+    justify-content:center;
+    padding:25px;
+    position:relative;
+    gap:350px;
+    
+}
+.where span{
+    font-weight: 600;
+    font-size: 24px;
+    color:rgb(13, 13, 221);
+}
+.info{
+    height:270px;
+    width:355px;
+    border:1px solid black;
+    margin:15px 0px 0px 30px;
+    display:flex;
+    justify-content:center;
+}
+.lawyerbox{
+    display:flex;
+}
+.lawyerbox> :nth-child(1){
+    position:relative;
+    right:-60px;
+}
+.lawyerbox> :nth-child(2){
+    position:relative;
+    right:-100px;
+}
+.lawyerbox> :nth-child(3){
+    position:relative;
+    right:-120px;
+}
+.info img{
+    height:167px;
+    width:130px;
+    
+    position: relative;
+    right:30px;
+    margin:40px 0px 0px 40px;
+    padding:4px 4px 4px 4px;
+}
+.info img:hover{
+    background-color: gray;
+    cursor:pointer;
+}
+.info div{
+    margin:30px 0px 0px 0px;
+}
+.name{
+    font-family:"Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color:rgb(35,82,124);
+    position:relative;
+    top:15px;
+    cursor:pointer;
+}
+.lawratoimg img{
+    height:70vh;
+    width:80vw;
+    margin:40px 25px 5px 130px;
+
+}
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
+}
+
+footer .questions {
+    padding: 34px 0;
+}
+
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    background-color: gray;
+}
+.end{
+    background-color: gray;
+}
+.rating{
+    position: relative;
+    top: 33px;
+    left: 41px;
+    display: flex;
+    gap: 0px;
+}
+.rating img{
+    width:15px;
+    height:15px;
+    top: -39px;
+    right: 48px;
+    margin:0px;
+    padding:1px;
+}
+.experience{
+    margin:0px;
+}
+.experience p{
+    text-align: center;
+    position: relative;
+    top: -41px;
+    right: 133px;
+}
+/* CSS for toggled navigation menu */
+@media screen and (max-width: 768px) {
+    .nav-menu {
+        display: none;
+    }
+
+    .show-menu .nav-menu {
+        display: block;
+    }
+}
